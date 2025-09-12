@@ -11,7 +11,7 @@ labels:
 ---
 <img width="300px" class="rounded float-start pe-4" src="../img/typscriptmeme (1).png">
 
-## Feelings on Typscript
+## Feelings on Typescript
 
 I’ve only worked on Python and C++ before, and to be honest, as a not-very-good coder, I find TypeScript an interesting language. Compared to Python, TypeScript feels a bit stricter because of the type system, which sometimes feels frustrating at first but also makes me think more carefully about my code. Compared to C++, it feels much easier and cleaner to write, especially since I don’t have to worry as much about memory management. Even though I’m still learning, I like how TypeScript gives me a safety net with types while still letting me write JavaScript-style code.
 
