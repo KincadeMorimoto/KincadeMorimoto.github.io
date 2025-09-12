@@ -25,6 +25,8 @@ Stack Overflow, a Q&A site for programmers, is a great resource for any individu
 
 A developer asked about this C/C++ snippet: <a href="https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c"><i class="large github icon "></i>here</a>
 
+
+
 ```
 Q: What is the '-->' operator in C/C++?
 
