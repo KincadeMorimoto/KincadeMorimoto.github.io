@@ -10,46 +10,16 @@ labels:
   - Coding
 ---
 
+## Feelings on Typscript
 
+I’ve only worked on Python and C++ before, and to be honest, as a not-very-good coder, I find TypeScript an interesting language. Compared to Python, TypeScript feels a bit stricter because of the type system, which sometimes feels frustrating at first but also makes me think more carefully about my code. Compared to C++, it feels much easier and cleaner to write, especially since I don’t have to worry as much about memory management. Even though I’m still learning, I like how TypeScript gives me a safety net with types while still letting me write JavaScript-style code.
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+## About WODs
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+I really don’t like being under the pressure of a timer for athletic coding, but I do feel that eventually the timer will help me be able to code under pressure better. Right now, it makes me feel stressed and sometimes I blank out, but I can already see that the repetition is starting to make me more confident with the syntax. I think this style of practice is kind of like doing drills in sports—at first it feels tedious and nerve-wracking, but the more you do it, the more natural it becomes. Even if I don’t enjoy it in the moment, I can see the long-term benefit.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+## Overall
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+Overall, I am liking the way that the class is being structured. The combination of learning concepts, doing WODs, and reflecting on the experience makes me feel more engaged than just sitting through lectures. It feels like I am not just learning a language, but also learning how to become a better problem solver under real-world conditions. I appreciate that the course is pushing me out of my comfort zone, and I think it will pay off as I keep practicing and getting more familiar with TypeScript and software engineering in general.
 
-Here's what I think: the difficult things will always be difficult.
-
-## In the context of programming
-
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+I had used chatgpt to bulk out this essay as I had admittedly, procrastinated on this.
