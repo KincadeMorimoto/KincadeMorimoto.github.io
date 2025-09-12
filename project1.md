@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: img/cotton/mililani-logo.png
+image: img/mililani-logo.png
 title: "High School Marching Band"
 date: 2018 - 2022
-published: true
+published: false
 labels:
   - Band
   - High School
