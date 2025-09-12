@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Smart Questions, Good Answers"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2015-09-11
 published: true
 labels:
   - Questions
@@ -13,87 +13,63 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
-
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
-
 ## What’s a smart question?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+Effective communication is essential in software engineering. Eric Raymond's "How to Ask Questions the Smart Way" reminds us that well-formulated, precise questions maximize the chances of receiving helpful answers and promote an open society.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+Stack Overflow, a Q&A site for programmers, is a great resource for any individual who may be having issues with code or who just wants to find new or different methods of accomplishing something. There I found examples of bad questions and good questions, which could probably be improved.
 
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+A developer asked about this C/C++ snippet: <a href="https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c"><i class="large github icon "></i>here</a>
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+Q: What is the '-->' operator in C/C++?
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+After reading [Hidden Features and Dark Corners of C++/STL](http://groups.google.com/group/comp.lang.c++.moderated/msg/33f173780d58dd20) on comp.lang.c++.moderated, I was completely surprised that the following snippet compiled and worked in both Visual Studio 2008 and G++ 4.4. I would assume this is also valid C since it works in GCC as well.
 
-Like this:
+Here's the code:
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+#include <stdio.h>
+int main()
+{
+    int x = 10;
+    while (x --> 0) // x goes to 0
+    {
+        printf("%d ", x);
+    }
+}
+
+Output:
+
+9 8 7 6 5 4 3 2 1 0
+
+Where is this defined in the standard, and where has it come from?
+```
+Analysis of Smartness
+
+This question demonstrates several principles from Raymond’s guidelines: Clarity and specificity: The developer provides the exact code, observed output, and the context of their confusion. Prior research: They reference reading Hidden Features and Dark Corners of C++/STL, showing they attempted to understand the behavior before asking. Conciseness with context: The question is short but gives enough detail for an expert to analyze. Open-ended yet focused: They seek a precise explanation about the language standard and compiler behavior.
+
+```
+A: --> is not an operator. It is in fact two separate operators, -- and >. The code in the condition decrements x, while returning x's original (not decremented) value, and then compares the original value with 0 using the > operator. To better understand, the statement could be written as follows: while( (x--) > 0 )
 
 ```
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+This concise explanation not only addressed the developer's query but also instructed others in a subtle point of C/C++ syntax. It shows how well-posed questions engender clear, actionable, and accurate answers.
 
-## The foolproof way to get ignored.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+## A not so smart question
+
+In contrast, let us look at a hypothetical "not-so-smart" question:
 
 ```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+“My program isn’t working. Can someone fix it?”
 ```
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+This question is vague: it provides no programming language, no code snippet, and no error message. It does not demonstrate any research, giving no information about what the asker has tried or observed. The default response of the community is to request clarification, asking for code or error messages. While such requests do eventually push the asker towards the inclusion of necessary information, they do not lead to immediate solutions and frustrate the asker and the potential responders as well. This highlights that poorly prepared questions are a waste of time and lead to low-quality interaction.
+
+A contrast between these two examples points to the value of smart questions. Preparation, clear explanation of the problem, giving proper context, and demonstrating work already done saves time, gets beneficial answers, and promotes a sense of community. Conversely, ill-defined questions cause confusion, delay progress, and produce inefficiency, which ultimately get in the way of learning and problem-solving.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+In conclusion, smart questioning is an essential skill for software engineers. The C/C++ --> example illustrates how specificity, context, and background research allow communities to provide precise and instructive answers. The fictional "not-so-smart" example illustrates the result of inadequate preparation and clarity. By internalizing these principles, software engineers can strengthen problem-solving abilities, make meaningful contributions to collaborative communities, and further their career progression.
+
+With the last essay as well, I had procrastinated hard on this one and had to use chatgpt to help me bulk out the essay and help with formating and such. 
