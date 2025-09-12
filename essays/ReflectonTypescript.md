@@ -9,6 +9,7 @@ labels:
   - Typscript
   - Coding
 ---
+<img width="300px" class="rounded float-start pe-4" src="../img/typscriptmeme (1).png">
 
 ## Feelings on Typscript
 
