@@ -4,7 +4,7 @@ type: project
 image: img/mililani-logo.png
 title: "High School Marching Band"
 date: 2018 - 2022
-published: false
+published: true
 labels:
   - Band
   - High School
