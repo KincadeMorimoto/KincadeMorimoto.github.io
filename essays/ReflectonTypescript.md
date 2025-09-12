@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflect On Typscript"
 # All dates must be YYYY-MM-DD format!
-date: 2016-09-11
+date: 2025-09-11
 published: true
 labels:
   - Typscript
