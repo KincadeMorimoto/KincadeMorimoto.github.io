@@ -13,6 +13,11 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
+
+
+
+
+
 ## What’s a smart question?
 
 Effective communication is essential in software engineering. Eric Raymond's "How to Ask Questions the Smart Way" reminds us that well-formulated, precise questions maximize the chances of receiving helpful answers and promote an open society.
@@ -49,10 +54,14 @@ Analysis of Smartness
 This question demonstrates several principles from Raymond’s guidelines: Clarity and specificity: The developer provides the exact code, observed output, and the context of their confusion. Prior research: They reference reading Hidden Features and Dark Corners of C++/STL, showing they attempted to understand the behavior before asking. Conciseness with context: The question is short but gives enough detail for an expert to analyze. Open-ended yet focused: They seek a precise explanation about the language standard and compiler behavior.
 
 ```
-A: --> is not an operator. It is in fact two separate operators, -- and >. The code in the condition decrements x, while returning x's original (not decremented) value, and then compares the original value with 0 using the > operator. To better understand, the statement could be written as follows: while( (x--) > 0 )
+A: --> is not an operator.
+It is in fact two separate operators, -- and >.
+
+The code in the condition decrements x, while returning x's original (not decremented) value, and then compares the original value with 0 using the > operator.
+To better understand, the statement could be written as follows: while( (x--) > 0 )
 
 ```
- 
+
 This concise explanation not only addressed the developer's query but also instructed others in a subtle point of C/C++ syntax. It shows how well-posed questions engender clear, actionable, and accurate answers.
 
 
@@ -61,12 +70,15 @@ This concise explanation not only addressed the developer's query but also instr
 In contrast, let us look at a hypothetical "not-so-smart" question:
 
 ```
+
 “My program isn’t working. Can someone fix it?”
+
 ```
 
 This question is vague: it provides no programming language, no code snippet, and no error message. It does not demonstrate any research, giving no information about what the asker has tried or observed. The default response of the community is to request clarification, asking for code or error messages. While such requests do eventually push the asker towards the inclusion of necessary information, they do not lead to immediate solutions and frustrate the asker and the potential responders as well. This highlights that poorly prepared questions are a waste of time and lead to low-quality interaction.
 
 A contrast between these two examples points to the value of smart questions. Preparation, clear explanation of the problem, giving proper context, and demonstrating work already done saves time, gets beneficial answers, and promotes a sense of community. Conversely, ill-defined questions cause confusion, delay progress, and produce inefficiency, which ultimately get in the way of learning and problem-solving.
+
 
 ## Conclusion
 
