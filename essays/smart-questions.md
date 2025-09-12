@@ -21,7 +21,6 @@ labels:
 ## What’s a smart question?
 
 Effective communication is essential in software engineering. Eric Raymond's "How to Ask Questions the Smart Way" reminds us that well-formulated, precise questions maximize the chances of receiving helpful answers and promote an open society.
-
 Stack Overflow, a Q&A site for programmers, is a great resource for any individual who may be having issues with code or who just wants to find new or different methods of accomplishing something. There I found examples of bad questions and good questions, which could probably be improved.
 
 A developer asked about this C/C++ snippet: <a href="https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c"><i class="large github icon "></i>here</a>
@@ -56,7 +55,6 @@ This question demonstrates several principles from Raymond’s guidelines: Clari
 ```
 A: --> is not an operator.
 It is in fact two separate operators, -- and >.
-
 The code in the condition decrements x, while returning x's original (not decremented) value, and then compares the original value with 0 using the > operator.
 To better understand, the statement could be written as follows: while( (x--) > 0 )
 
