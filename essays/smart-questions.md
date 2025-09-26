@@ -85,4 +85,5 @@ A contrast between these two examples points to the value of smart questions. Pr
 
 In conclusion, smart questioning is an essential skill for software engineers. The C/C++ --> example illustrates how specificity, context, and background research allow communities to provide precise and instructive answers. The fictional "not-so-smart" example illustrates the result of inadequate preparation and clarity. By internalizing these principles, software engineers can strengthen problem-solving abilities, make meaningful contributions to collaborative communities, and further their career progression.
 
-With the last essay as well, I had procrastinated hard on this one and had to use chatgpt to help me bulk out the essay and help with formating and such. 
+I had used chatgpt to help structure my thoughts and fix grammar. (I also had written this pretty late minute)
+
