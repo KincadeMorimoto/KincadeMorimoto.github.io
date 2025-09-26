@@ -10,7 +10,7 @@ labels:
   - ESLint
   - Coding
 ---
-<img width="300px" class="rounded float-start pe-4" src="../img/vscode-logo (1).png">
+<img width="200px" class="rounded float-start pe-4" src="../img/vscode-logo (1).png">
 
 ## Coding Standards as a Lerning Tool
 
