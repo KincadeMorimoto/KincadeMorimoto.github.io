@@ -23,4 +23,5 @@ I really don’t like being under the pressure of a timer for athletic coding, b
 
 Overall, I am liking the way that the class is being structured. The combination of learning concepts, doing WODs, and reflecting on the experience makes me feel more engaged than just sitting through lectures. It feels like I am not just learning a language, but also learning how to become a better problem solver under real-world conditions. I appreciate that the course is pushing me out of my comfort zone, and I think it will pay off as I keep practicing and getting more familiar with TypeScript and software engineering in general.
 
-I had used chatgpt to bulk out this essay as I had admittedly, procrastinated on this.
+I had used chatgpt to help structure my thoughts and fix grammar.
+
