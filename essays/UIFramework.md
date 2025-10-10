@@ -10,7 +10,7 @@ labels:
   - Bootsrap
   - Formatting
 ---
-<img width="500px" class="rounded float-start pe-4" src="../img/what-is-bootstrap.png">
+<img width="450px" class="rounded float-start pe-4" src="../img/what-is-bootstrap.png">
 
 ## The Challenge of Learning a Framework
 
