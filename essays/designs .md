@@ -6,8 +6,8 @@ title: "Keeping in Step"
 date: 2025-12-05
 published: true
 labels:
-  - Typscript
-  - Coding
+  - Software Development
+  - ICS 314
 ---
 <img width="300px" class="rounded float-start pe-4" src="../img/img12765_14398l.jpg">
 
