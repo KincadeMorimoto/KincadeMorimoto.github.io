@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Reflect On Typescript"
+title: "Keeping in Step"
 # All dates must be YYYY-MM-DD format!
-date: 2025-09-11
+date: 2025-12-05
 published: true
 labels:
   - Typscript
