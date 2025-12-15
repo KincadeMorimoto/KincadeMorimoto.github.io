@@ -10,9 +10,15 @@ labels:
   - Effort Estimation
   - Software Engineering
 ---
-<p align="center">
-  <img width="300px" class="rounded" src="../img/effort meme.png" alt="Bootstrap Framework Image">
-</p>
+<div class="d-flex align-items-center justify-content-center">
+  <img
+    width="300px"
+    class="rounded me-2"
+    src="../img/effort meme.png"
+    alt="Bootstrap Framework Image"
+  >
+  <small class="text-muted">epic embed fail</small>
+</div>
 
 ## Basis for Effort Estimates
 My first effort estimate for the project was made somewhat on a whim. I generally thought about how long it might take to implement the multi-step lifestyle form, including step navigation, question components, validation, and state management. Based on that rough mental estimate, I predicted the task would take around 90 minutes. In reality, this estimate was significantly off.
