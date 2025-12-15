@@ -11,7 +11,7 @@ labels:
   - Software Engineering
 ---
 <p align="center">
-  <img width="300px" class="rounded" src="../img/what-is-bootstrap.png" alt="Bootstrap Framework Image">
+  <img width="300px" class="rounded" src="../img/effort meme.png" alt="Bootstrap Framework Image">
 </p>
 
 ## Basis for Effort Estimates
