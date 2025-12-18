@@ -1,3 +1,14 @@
+---
+layout: essay
+type: essay
+title: "Final ICS 314 Reflection"
+# All dates must be YYYY-MM-DD format!
+date: 2025-12-17
+published: true
+labels:
+  - ICS 314
+  - Reflection
+---
 
 
 ## Software Engineering Extended Beyond the Development of a Web Application
@@ -39,3 +50,5 @@ None of these are peculiar to web applications; a desktop application which mish
 ##Conclusion
 
 Although this course uses web application development as a medium, there are many general lessons to be learned beneath the surface. Concepts such as Agile Project Management, Configuration Management, and Ethics in Software Engineering are core elements of software engineering. They help organize projects and shape how systems change over time, while also guiding developers in their responsibilities towards users and society. By learning these principles, I developed a set of skills and perspectives that can be applied to a wide variety of software projects, not just those which involve web technologies.
+
+I had chatgpt help me oragnize and format my thoughts into a better sounding esssay
